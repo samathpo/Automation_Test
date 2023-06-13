@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SAUCE SUITE]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SAUCE TESTS(failed)">
+    <classes>
+      <class name="SauceTestSuite.LoginTest">
+        <methods>
+          <include name="InvalidLogin"/>
+        </methods>
+      </class> <!-- SauceTestSuite.LoginTest -->
+    </classes>
+  </test> <!-- SAUCE TESTS(failed) -->
+</suite> <!-- Failed suite [SAUCE SUITE] -->
